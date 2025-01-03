@@ -1,10 +1,13 @@
+import YogaImage from "../assets/yoga.png";
+import AppImage from "../assets/app.png";
+import PlayImage from "../assets/play.png";
 
 const YogaAd = () => {
     return (
         <div className="flex flex-col lg:flex-row items-center bg-white p-8 lg:p-16">
             <div className="w-full lg:w-1/2 flex justify-center mb-8 lg:mb-0">
                 <img
-                    src="../../public/yoga.png"
+                    src={YogaImage}
                     alt="Yoga Pose"
                     className="rounded-lg shadow-lg"
                 />
@@ -23,7 +26,7 @@ const YogaAd = () => {
                         className="bg-black text-white px-6 py-3 rounded-lg flex items-center justify-center shadow hover:bg-gray-800"
                     >
                         <img
-                            src="../../public/app.png"
+                            src={AppImage}
                             alt="Apple Store"
                             className="mr-2 w-[20px] h-[20px]"
                         />
@@ -34,7 +37,7 @@ const YogaAd = () => {
                         className="bg-black text-white px-6 py-3 rounded-lg flex items-center justify-center shadow hover:bg-gray-800"
                     >
                         <img
-                            src="../../public/play.png"
+                            src={PlayImage}
                             alt="Play Store"
                             className="mr-2 w-[20px] h-[20px]"
                         />

@@ -1,19 +1,24 @@
+import InstructorImage1 from "../assets/yoga1.jpg";
+import InstructorImage2 from "../assets/yoga2.jpg";
+import InstructorImage3 from "../assets/yoga3.jpg";
+import InstructorImage4 from "../assets/yoga4.jpg";
+
 const profiles = [
     {
         name: "Preetika Bhatnagar",
-        image: "../../public/yoga1.jpg",
+        image: InstructorImage1
     },
     {
         name: "Samarthya Bhatnagar",
-        image: "../../public/yoga2.jpg",
+        image: InstructorImage2
     },
     {
         name: "Diana",
-        image: "../../public/yoga3.jpg"
+        image: InstructorImage3
     },
     {
         name: "Herkeesh",
-        image: "../../public/yoga4.jpg"
+        image:InstructorImage4
     },
 ];
 

@@ -1,4 +1,4 @@
-
+import NavbarImage from "../assets/profile.png";
 
 const Navbar = () => {
     return (
@@ -33,7 +33,7 @@ const Navbar = () => {
                     </div>
                     <div className="flex items-center">
                         <img
-                            src="../../public/profile.png"
+                            src={NavbarImage}
                             alt="Profile"
                             className="h-10 w-10 rounded-full border border-gray-300"
                         />

@@ -1,8 +1,10 @@
+import BannerImage from "../assets/yogaBanner.jpg";
+
 const Banner = () => {
     return (
         <div className="relative h-screen bg-gray-900">
             <img
-                src="../../public/yogaBanner.jpg"
+                src={BannerImage}
                 alt="Yoga World"
                 className="w-full h-full object-cover opacity-70"
             />

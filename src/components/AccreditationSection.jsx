@@ -1,3 +1,5 @@
+import AccreditationSectionImage from "../assets/mobile.jpg";
+
 const AccreditationSection = () => {
     return (
         <section className="bg-white py-16">
@@ -17,7 +19,7 @@ const AccreditationSection = () => {
                 </div>
                 <div className="lg:w-1/2 flex justify-center">
                     <img
-                        src="../../public/mobile.jpg"
+                        src={AccreditationSectionImage}
                         alt="Mobile Mockup"
                         className="w-[300px] lg:w-[400px] drop-shadow-xl"
                     />

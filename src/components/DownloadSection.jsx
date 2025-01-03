@@ -1,3 +1,6 @@
+import DownloadAppSectionImage1 from "../assets/play.png";
+import DownloadAppSectionImage2 from "../assets/play.png";
+import DownloadAppSectionImage3 from "../assets/desktop1.jpg";
 
 const DownloadAppSection = () => {
     return (
@@ -15,7 +18,7 @@ const DownloadAppSection = () => {
                             className="bg-white text-gray-800 px-4 py-2 rounded-lg flex items-center shadow hover:bg-gray-200 transition"
                         >
                             <img
-                                src="../../public/app.png"
+                                src={DownloadAppSectionImage1}
                                 alt="Apple Store"
                                 className="h-6 mr-2"
                             />
@@ -26,7 +29,7 @@ const DownloadAppSection = () => {
                             className="bg-white text-gray-800 px-4 py-2 rounded-lg flex items-center shadow hover:bg-gray-200 transition"
                         >
                             <img
-                                src="../../public/play.png"
+                                src={DownloadAppSectionImage2}
                                 alt="Google Play"
                                 className="h-6 mr-2"
                             />
@@ -37,7 +40,7 @@ const DownloadAppSection = () => {
                 <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center">
                     <div className="relative">
                         <img
-                            src="../../public/desktop1.jpg" // Replace with actual desktop image
+                            src={DownloadAppSectionImage3}
                             alt="Desktop Screen"
                             className="w-full max-w-sm md:max-w-md"
                         />

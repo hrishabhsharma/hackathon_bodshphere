@@ -1,5 +1,7 @@
 
 import { FaFacebookF, FaInstagram, FaLinkedinIn, FaYoutube } from "react-icons/fa";
+import FooterImage1 from "../assets/app.png";
+import FooterImage2 from "../assets/play.png";
 
 const Footer = () => {
     return (
@@ -18,7 +20,7 @@ const Footer = () => {
                                 className="bg-black text-white px-6 py-3 rounded-lg flex items-center justify-center shadow hover:bg-gray-800"
                             >
                                 <img
-                                    src="../../public/app.png"
+                                    src={FooterImage1}
                                     alt="Apple Store"
                                     className="mr-2 w-[20px] h-[20px]"
                                 />
@@ -29,7 +31,7 @@ const Footer = () => {
                                 className="bg-black text-white px-6 py-3 rounded-lg flex items-center justify-center shadow hover:bg-gray-800"
                             >
                                 <img
-                                    src="../../public/play.png"
+                                    src={FooterImage2}
                                     alt="Play Store"
                                     className="mr-2 w-[20px] h-[20px]"
                                 />
